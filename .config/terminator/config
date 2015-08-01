@@ -9,7 +9,7 @@
     cursor_color = "#eee8d5"
     foreground_color = "#eee8d5"
     show_titlebar = False
-    font = Source Code Pro for Powerline Medium 10
+    font = Monaco for Powerline 9
     background_color = "#002b36"
 [layouts]
   [[default]]
