@@ -1,22 +1,26 @@
 [global_config]
+  borderless = True
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  geometry_hinting = False
 [keybindings]
-[profiles]
-  [[default]]
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    use_system_font = False
-    cursor_color = "#eee8d5"
-    foreground_color = "#eee8d5"
-    show_titlebar = False
-    font = Monaco for Powerline 10
-    background_color = "#002b36"
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.8
+    background_image = None
+    cursor_color = "#eee8d5"
+    font = Monaco for Powerline 11
+    foreground_color = "#eee8d5"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
