@@ -7,6 +7,7 @@
   [[default]]
     [[[child1]]]
       parent = window0
+      profile = default
       type = Terminal
     [[[window0]]]
       parent = ""
@@ -18,9 +19,13 @@
     background_darkness = 0.8
     background_image = None
     cursor_color = "#eee8d5"
+    custom_command = set -x TERM xterm-256color; tmux -2 attach -d; or tmux -2 new
     font = Monaco for Powerline 11
     foreground_color = "#eee8d5"
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollback_infinite = True
+    scrollbar_position = hidden
     show_titlebar = False
+    use_custom_command = True
     use_system_font = False
+  [[notmux]]
