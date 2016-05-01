@@ -22,7 +22,7 @@
     cursor_color = "#f4f4f4"
     cursor_shape = underline
     custom_command = set -x TERM xterm-256color; tmux -2 attach -d; or tmux -2 new
-    font = Source Code Pro 11
+    font = Monaco for Powerline 11
     foreground_color = "#eee8d5"
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollback_infinite = True
